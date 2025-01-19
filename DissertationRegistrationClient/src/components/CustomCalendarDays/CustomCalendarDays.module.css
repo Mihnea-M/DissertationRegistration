@@ -1,0 +1,40 @@
+.empty {
+  background-color: transparent;
+  border: none;
+}
+
+.day {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.day:hover {
+  background-color: #e0e0e0;
+}
+
+.previousSession {
+  background-color: #e2b2b6;
+}
+
+.currentSession {
+  background-color: #88e4bb;
+}
+
+.upcomingSession {
+  background-color: #8bd9e7;
+}
+
+.sessionInfo {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  background-color: #0d6efd;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: 0.8rem;
+}

@@ -1,0 +1,63 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgba(0, 68, 204, 0.8); 
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    position: sticky; 
+    top: 0;            
+    z-index: 5;
+    backdrop-filter: blur(10px); 
+    transition: background-color 0.3s ease;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.logo a:link,
+.logo a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.logo a:hover{
+    text-decoration: underline;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.userIcon {
+    color: white;
+
+}
+
+.loginButton {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+
+.menuPaper {
+    background-color: #f0f8ff; 
+    color: #0044cc; 
+}
+
+.menuUsername {
+    font-weight: bold;
+    padding: 8px 16px;
+    background-color: #e0e8ff; 
+}

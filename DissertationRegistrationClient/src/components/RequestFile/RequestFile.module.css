@@ -1,0 +1,32 @@
+.fileContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.fileLabel {
+  margin-right: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.fileLabel:hover {
+  text-decoration: underline;
+}
+
+.fileName {
+  color: #007bff;
+}
+
+.downloadButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.downloadButton:hover {
+  background-color: #0056b3;
+}

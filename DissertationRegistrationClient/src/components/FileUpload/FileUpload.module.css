@@ -1,0 +1,57 @@
+.uploadContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.fileInput {
+  display: none;
+}
+
+.fileLabel {
+  display: flex;
+  align-items: center;
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  max-width: 200px;
+  text-align: center;
+}
+
+.fileLabel:hover {
+  background-color: #0056b3;
+}
+
+.uploadIcon {
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+.fileDetails {
+  margin-top: 10px;
+}
+
+.confirmButton,
+.cancelButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  max-width: 200px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.cancelButton {
+  background-color: #dc3545;
+}
+
+.confirmButton:hover,
+.cancelButton:hover {
+  opacity: 0.8;
+}

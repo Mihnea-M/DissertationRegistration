@@ -1,0 +1,33 @@
+.sessionsList {
+  margin-top: 20px;
+}
+
+.sessionsList h3 {
+  margin-bottom: 10px;
+}
+
+.sessionItem {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.previousSession {
+  background-color: #e2b2b6;
+}
+
+.currentSession {
+  background-color: #88e4bb;
+}
+
+.upcomingSession {
+  background-color: #8bd9e7;
+}
+
+.sessionItem button {
+  margin-left: 10px;
+}

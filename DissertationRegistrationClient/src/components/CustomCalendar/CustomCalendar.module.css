@@ -1,0 +1,91 @@
+.container {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.dayPrefixes {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.dayPrefix {
+  text-align: center;
+  font-weight: bold;
+}
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  margin: 20px 0;
+}
+
+.day {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.day:hover {
+  background-color: #e0e0e0;
+}
+
+.empty {
+  background-color: transparent;
+  border: none;
+}
+
+.previousSession {
+  background-color: #e2b2b6;
+}
+
+.currentSession {
+  background-color: #88e4bb;
+}
+
+.upcomingSession {
+  background-color: #8bd9e7;
+}
+
+.sessionInfo {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  background-color: #0d6efd;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: 0.8rem;
+}
+
+.sessionsList {
+  margin-top: 20px;
+}
+
+.sessionsList h3 {
+  margin-bottom: 10px;
+}
+
+.sessionItem {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.sessionItem button {
+  margin-left: 10px;
+}

@@ -1,0 +1,25 @@
+.container {
+    padding: 20px;
+  }
+  
+  .title {
+    margin-bottom: 10px;
+  }
+  
+  .sessionCard {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .applyButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .applyButton:hover {
+    background-color: #0056b3;
+  }
